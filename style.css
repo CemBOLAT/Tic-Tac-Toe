@@ -1,0 +1,93 @@
+body{
+    background-color: #555;
+}
+#titleBox{
+    position: relative;
+    margin: 0;
+    padding: 0px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 120px;
+}
+#headerBox{
+    position: relative;
+    top: 0;
+    margin: 0px;
+    width: 1000px;
+    margin: auto;
+}
+#currentTurn{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#scoreBox{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.score{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+#table{
+    margin: auto;
+    width: 780px;
+    height: 780px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tablePart{
+    height: 250px;
+    width: 250px;
+    border: 5px white solid;
+}
+#whoWillPutSen{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.photoPart{
+    height: 245px;
+    width: 250px;
+}
+.o-class{
+    background-image: url(./0-image.png) !important;
+    background-size: cover;
+}
+.x-class{
+    background-image: url(./X-image.png) !important;
+    background-size: cover;
+}
+#whoWillPutSen{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 30px;
+}
+#whoWillPut{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: fit-content;
+    margin: auto;
+}
+#result{
+    margin: auto;
+    width: fit-content;
+    font-size: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
